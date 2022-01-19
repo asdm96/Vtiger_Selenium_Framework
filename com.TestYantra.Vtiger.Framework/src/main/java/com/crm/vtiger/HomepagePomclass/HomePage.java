@@ -31,6 +31,9 @@ public class HomePage extends WebDriverUtility{
 	
 	@FindBy(xpath = "//a[text()='Sign Out']")
 	private WebElement signOutLink;
+	
+	@FindBy(name="username")
+	private WebElement usernameFiled;
 
 	@FindBy(name="password")
 	private WebElement passwordFiled;
