@@ -1,10 +1,8 @@
-package com.crm.vtiger.GenericUtils;
+ package com.crm.vtiger.GenericUtils;
 
-import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.File;
-import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
