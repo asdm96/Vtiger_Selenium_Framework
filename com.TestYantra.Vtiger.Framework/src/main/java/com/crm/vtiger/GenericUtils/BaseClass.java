@@ -71,7 +71,7 @@ public class BaseClass {
 		driver.get(url);
 		//login to the application
 		LoginPage loginPage=new LoginPage(driver);
-		homePAge = loginPage.login(username, password);
+		homePAge = loginPage.login("admin", "manager");
 	}
 	@AfterMethod()
 	public void configAM() throws Throwable {

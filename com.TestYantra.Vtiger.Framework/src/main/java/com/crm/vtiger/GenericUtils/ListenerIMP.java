@@ -44,8 +44,7 @@ public class ListenerIMP extends BaseClass implements ITestListener {
 	    	reports.attachReporter(htmlReporter);
 	    	reports.setSystemInfo("OS", "Windows 10");
 	    	reports.setSystemInfo("Platform", "Windows");
-	    	reports.setSystemInfo("Reporter Name", "Adarsh M");
-	        		
+	    	reports.setSystemInfo("Reporter Name", "Adarsh M");    		
 	    }		
 
 	    @Override		
